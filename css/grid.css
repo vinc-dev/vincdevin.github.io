@@ -1,0 +1,157 @@
+.container {
+	position: relative;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.columns {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.columns:not(:last-child) {
+	margin-bottom: calc(1.5rem - 0.75rem);
+}
+
+.columns,
+.columns:after,
+.columns:before {
+	clear: both;
+}
+
+[class*='is-'] {
+	position: relative;
+    padding: 0 15px;
+}
+
+.is-1 {
+	width: 8.333333333%;
+	min-width: 8.333333333%;
+	max-width: 8.333333333%;
+}
+.is-2 {
+	width: 16.66666667%;
+	min-width: 16.66666667%;
+	max-width: 16.66666667%;
+}
+.is-3 {
+	width: 25%;
+	min-width: 25%;
+	max-width: 25%;
+}
+.is-4 {
+	width: 33.33333333%;
+	min-width: 33.33333333%;
+	max-width: 33.33333333%;
+}
+.is-5 {
+	width: 41.66666667%;
+	min-width: 41.66666667%;
+	max-width: 41.66666667%;
+}
+.is-6 {
+	width: 50%;
+	min-width: 50%;
+	max-width: 50%;
+}
+.is-7 {
+	width: 58.33333333%;
+	min-width: 58.33333333%;
+	max-width: 58.33333333%;
+}
+.is-8 {
+	width: 66.66666667%;
+	min-width: 66.66666667%;
+	max-width: 66.66666667%;
+}
+.is-9 {
+	width: 75%;
+	min-width: 75%;
+	max-width: 75%;
+}
+.is-10 {
+	width: 83.33333333%;
+	min-width: 83.33333333%;
+	max-width: 83.33333333%;
+}
+.is-11 {
+	width: 91.66666667%;
+	min-width: 91.66666667%;
+	max-width: 91.66666667%;
+}
+.is-12 {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.align-center {
+	align-items: center;
+}
+
+@media (max-width : 768px) {
+	.is-1, .is-2, .is-3, .is-4, .is-5, .is-6,
+	.is-7, .is-8, .is-9, .is-10, .is-11, .is-12 {
+		width: 100% !important;
+		min-width: 100% !important;
+		max-width: 100% !important;
+	}
+
+    .columns > [class*='is-']:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media (min-width : 480px) {
+	.columns {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) {
+	.container {
+		width: 720px;
+		max-width: 720px;
+	}
+
+	.columns {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+	.container {
+		width: 960px;
+		max-width: 960px;
+	}
+
+	.columns {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/* Large Devices */
+@media (min-width : 1200px) {
+	.container {
+		width: 1140px;
+		max-width: 1140px;
+	}	
+
+	.columns {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+	}
+}

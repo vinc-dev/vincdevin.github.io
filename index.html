@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Automotive </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/fonts/proxima.css">
+    <link rel="stylesheet" href="./css/preset.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/component.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="nav">
+            <div class="main-logo-wrapper">
+                <a href="index.html" class="main-logo">
+                    <img src="./assets/logo.png" alt="logo">
+                    <span>Car Autoshop</span>
+                </a>
+            </div>
+            <ul class="top-navigation">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="company.html">Our Company</a>
+                        </li>
+                        <li>
+                            <a href="teams.html">Our Teams</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="slider">
+    <div class="slide" id="slider-view">
+        <!-- JAVASCRIPT RENDER -->
+    </div>
+
+    <div class="navigation" id="slider-navigation-view">
+        <span class="arrow is-left"></span>
+        <span class="arrow is-right"></span>
+    </div>
+
+    <div class="slider-text">
+        <div class="slide-text">
+            <h1 class="no-margin no-padding">Car Autoshop</h1>
+            <p class="no-padding feature-text">
+                Car Autoshop is a website that serves online transactions for booking up to Automotive purchases. Car Autoshop has been established since 1998, and has won awards for the world's largest automotive sales.
+            </p>
+            <a href="#" class="button is-default hover-is-primary">
+                <span>Read More</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<main>
+    <section class="special-offers is-fluid section" id="special-offers-view">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="title">Special Offer's</h3>
+            </div>
+
+            <div class="cards columns">
+                <!-- JAVASCRIPT RENDER -->
+            </div>
+
+            <div class="text-center read-more-bottom">
+                <a href="gallery.html" class="button is-primary hover-is-primary-darker">
+                    <span>More Offers</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="is-6">
+                    <img src="./assets/usc60auc301a021001.png" class="img-responsive">
+                </div>
+
+                <div class="offers-detail-description center-when-mobile is-6">
+                    <p>
+                        Audi Sport on the growth track: the first Audi R8 LMS GT3 race car debuted in 2009, in 2015 the second generation followed. In 2016, Audi Sport unveiled the Audi RS 3 LMS for the TCR category. In 2017, the model range expands yet again: the Audi R8 LMS comes as a GT4 variant.
+                    </p>
+                    <button class="button is-default hover-is-default">
+                        <span>Read More</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer-wrapper">
+    <div class="container">
+        <div class="columns">
+            <div class="is-4">
+                <div class="footer-description">
+                    <div class="main-logo-wrapper">
+                        <a href="index.html" class="main-logo">
+                            <img src="./assets/logo.png" alt="logo">
+                            <span>Car Autoshop</span>
+                        </a>
+                    </div>
+                </div>
+                <p>
+                    Car Autoshop is a website that serves online transactions for booking up to Automotive purchases. Car Autoshop has been established since 1998, and has won awards for the world's largest automotive sales.
+                </p>
+                <p class="no-margin no-padding margin-top">Copyrights &copy; all rights reserved.</p>
+            </div>
+            <div class="is-2">
+                <h4 class="no-padding no-margin margin-bottom padding-bottom">Quick Links</h4>
+                <ul class="footer-link no-margin no-padding no-list">
+                    <li><a href="teams.html">Our Teams</a></li>
+                    <li><a href="company.html">Our Company</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </div>
+            <div class="is-2">
+                <h4 class="no-padding no-margin margin-bottom padding-bottom">Visit Us</h4>
+                <ul class="footer-link no-margin no-padding no-list">
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://plus.google.com/" target="_blank">Google Plus</a></li>
+                </ul>
+            </div>
+            <div class="is-4">
+                <h4 class="no-padding no-margin margin-bottom padding-bottom">Our Company</h4>
+                <p>Plm. Soedirman, 38 Kav 88 78115, Jakarta Barat, Indonesia</p>
+                <div class="text-left">
+                    <label>+62 8883 88293</label>
+                    <label class="text-primary text-bold">info@car.com</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Load primary uses first -->
+<script type="text/javascript" src="./js/library/jquery-3.1.1.min.js"></script>
+
+<!-- Load service for data binding -->
+<script type="text/javascript" src="./js/service/car.service.js"></script>
+<script type="text/javascript" src="./js/service/slider.service.js"></script>
+
+<!-- Load view for viewing data -->
+<script type="text/javascript" src="./js/view/slider.view.js"></script>
+<script type="text/javascript" src="./js/view/slider-navigation.view.js"></script>
+<script type="text/javascript" src="./js/view/special-offers.view.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+*:before,
+*:after,
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+*:not(.icon),
+*:not(i) {
+    font-family: 'proxima', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+body {
+    background: #efefef;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.margin-top {
+    margin-top: 15px !important;
+}
+
+.margin-bottom {
+    margin-bottom: 15px !important;
+}
+
+.margin-left {
+    margin-left: 15px !important;
+}
+
+.margin-right {
+    margin-right: 15px !important;
+}
+
+.padding-bottom {
+    padding-bottom: 15px !important;
+}
+
+.padding-top {
+    padding-top: 15px !important;
+}
+
+.padding-left {
+    padding-left: 15px !important;
+}
+
+.padding-right {
+    padding-right: 15px !important;
+}
+
+.no-list {
+    list-style: none;
+}
+
+a, p, div, li, ol, ul, span, input, select, textarea, fieldset, blockquote, aside, section,
+address, dd, pre, button {
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.8rem;
+}
